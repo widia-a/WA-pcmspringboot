@@ -68,4 +68,8 @@ public class ConstantMessage {
 
 
     public static final String WARNING_STORE_NAME_MAX_LENGTH = "MAKSIMAL STORE NAME 50 KARAKTER";
+    public static final String ERROR_TIDAK_BOLEH_KOSONG_VAR_1 = "JUMLAH TIDAK BOLEH KOSONG";
+    public static final String ERROR_TIDAK_BOLEH_KOSONG_VAR_2 = "HARGA TIDAK BOLEH KOSONG";
+    public static final String ERROR_TIDAK_BOLEH_KOSONG_VAR_3 = "NAMA TIDAK BOLEH KOSONG";
+    public static final String SUCCESS_INSERT_QUERY = "INSERT QUERY BERHASIL";
 }

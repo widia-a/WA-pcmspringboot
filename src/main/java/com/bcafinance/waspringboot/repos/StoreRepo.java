@@ -15,5 +15,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface StoreRepo extends JpaRepository<Stores,Long> {
-    List<Stores> findByStoreNameLik(String storeName);
+    List<Stores> findByStoreNameLike(String storeName);
 }

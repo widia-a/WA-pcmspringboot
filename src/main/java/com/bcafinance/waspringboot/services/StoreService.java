@@ -62,7 +62,7 @@ public class StoreService {
 
 
     public List<Stores> findStoreNameLikes(String storeName) {
-        return storeRepo.findByStoreNameLik(storeName);
+        return storeRepo.findByStoreNameLike(storeName);
     }
 
     public List<Stores> findAllStore() {
